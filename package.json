@@ -6,6 +6,8 @@
   "type": "module",
   "scripts": {
     "test": "mocha"
+    "coverage": "nyc npm test",
+    "coveralls": "nyc report --reporter=text-lcov | coveralls"
   },
   "author": "",
   "license": "MIT",
