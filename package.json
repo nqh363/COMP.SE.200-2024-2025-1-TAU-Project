@@ -16,5 +16,9 @@
     "chai": "^4.2.0",
     "mocha": "^8.1.3"
   }
+  "nyc": {
+  "reporter": ["lcov", "text"],
+  "exclude": ["node_modules"]
+  }
   
 }
