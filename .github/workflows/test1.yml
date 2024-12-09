@@ -16,6 +16,9 @@ jobs:
       with:
         node-version: 18.x
 
+    - name: Make mocha executable
+      run: chmod +x ./node_modules/.bin/mocha
+      
     - name: npm install, npm run coverage
       run: |
         npm install

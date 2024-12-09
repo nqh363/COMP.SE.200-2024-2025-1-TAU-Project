@@ -1,4 +1,3 @@
-//import createMathOperation from '../src/.internal/createMathOperation.js'
 import chai from "chai"
 import add from "../src/add.js"
 
