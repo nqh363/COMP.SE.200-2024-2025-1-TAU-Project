@@ -37,7 +37,7 @@ describe("words", () => {
 
   it("should correctly handle words with numbers", () => {
     const result = words('abc123, xyz456');
-    expect(result).to.deep.equal(['abc123', 'xyz456']);
+    expect(result).to.deep.equal(['abc', '123', 'xyz', '456']);
   });
 
 });

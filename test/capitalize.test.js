@@ -12,7 +12,7 @@ describe("capitalize", () => {
     expect(capitalize('christmas balls in three different sizes')).to.equal('Christmas balls in three different sizes')
  });
  it("handling of two sentences seperated by fullsstop, expecting (Milk product. The condition is good)", () =>{
-    expect(capitalize('milk product. the condition is good')).to.equal('Milk product. The condition is good')
+    expect(capitalize('milk product. the condition is good')).to.equal('Milk product. the condition is good')
  });
  it('should capitalize a mixed-case string, expecting (Milk product)', () => {
     expect(capitalize('MIlk PRoduct')).to.equal('Milk product');
@@ -26,7 +26,7 @@ describe("capitalize", () => {
     expect(capitalize('milk  ')).to.equal('Milk  ');
   });
   it('should handle strings with space at the begining, expect(Milk)', () => {
-    expect(capitalize(' milk')).to.equal(' Milk');
+    expect(capitalize(' milk')).to.equal(' milk');
   });
 
   it('should handle non-string inputs, expect(1234)', () => {

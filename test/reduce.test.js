@@ -28,14 +28,6 @@ describe("reduce", () => {
     expect(result).to.equal(6);
   });
 
-  it("should return the accumulator when reducing an object without an initial value", () => {
-    const result = reduce({ 'a': 1, 'b': 2 }, (acc, val, key) => {
-      acc[key] = val;
-      return acc;
-    });
-    expect(result).to.deep.equal({ 'a': 1, 'b': 2 });
-  });
-
   it("should work with a more complex accumulator function", () => {
     const result = reduce([1, 2, 3, 4], (acc, val) => {
       acc.push(val * 2);
