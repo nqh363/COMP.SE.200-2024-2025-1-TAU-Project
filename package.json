@@ -21,7 +21,6 @@
     "reporter": [
       "lcov",
       "text"
-    ],
-    "report-dir": "./coverage"
+    ]
   }
 }
