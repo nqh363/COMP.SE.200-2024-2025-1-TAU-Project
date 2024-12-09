@@ -24,7 +24,6 @@ jobs:
         npm install
         npm install mocha
         npm test
-        continue-on-error: true
         npm run coverage
 
     - name: Coveralls
