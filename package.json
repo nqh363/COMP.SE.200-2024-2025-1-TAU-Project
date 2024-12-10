@@ -24,5 +24,6 @@
     ],
     "all": true,
     "include": ["src/*.js"]
+    "include": ["test/*.js"]
   }
 }
