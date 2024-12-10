@@ -28,10 +28,5 @@ jobs:
 
     - name: Coveralls
       uses: coverallsapp/github-action@v2
-
-  finish:
-    needs: build
-    runs-on: ubuntu-22.04
-    steps:
-      - name: Coveralls Finished
-        uses: coverallsapp/github-action@v2
+      with:
+        path-to-lcov: ./coverage/lcov.info
