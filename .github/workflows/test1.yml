@@ -29,6 +29,6 @@ jobs:
     - name: Coveralls
       uses: coverallsapp/github-action@v2
       with: 
-        path-to-lcov: ./node_modules/lcov-parse/coverage/lcov.info
+        path-to-lcov: ../../node_modules/lcov-parse/coverage/lcov.info
       env:
         COVERALLS_TOKEN: ${{ secrets.COVERALLS_TOKEN }}
