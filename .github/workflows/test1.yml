@@ -30,3 +30,5 @@ jobs:
       uses: coverallsapp/github-action@v2
       with:
         path-to-lcov: ./coverage/lcov.info
+      env:
+        COVERALLS_TOKEN: ${{ secrets.COVERALLS_TOKEN }}
