@@ -23,7 +23,9 @@
       "text"
     ],
     "all": true,
-    "include": ["src/*.js"]
-    
+    "include": [
+      "src/*.js",
+      "test/*.js"
+    ]    
   }
 }
