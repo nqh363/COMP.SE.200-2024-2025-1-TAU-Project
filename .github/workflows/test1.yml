@@ -25,6 +25,7 @@ jobs:
         npm install mocha
         npm test
         npm run coverage
+        npm report
 
     - name: Coveralls
       uses: coverallsapp/github-action@v2
